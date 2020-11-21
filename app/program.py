@@ -14,7 +14,7 @@ class Program:
         """Method Init Program"""
 
         self.Get()
-
+        
         pass
         
     def Get(self):
