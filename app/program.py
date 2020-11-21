@@ -12,8 +12,6 @@ class Program:
         
     def Program(self):
         """Method Init Program"""
-        self.str = self.db.connect()
-        print("Hi, %s" % self.str)
 
         self.Get()
 
@@ -21,9 +19,18 @@ class Program:
         
     def Get(self):
         print("Program ...")
+        self.db.Get()
         pass
 
     def Set(self):
+        print("Program ...")
+        pass
+
+    def Up(self):
+        print("Program ...")
+        pass
+
+    def Del(self):
         print("Program ...")
         pass
 
