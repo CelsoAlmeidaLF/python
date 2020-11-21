@@ -1,2 +1,5 @@
-from .modules.dao import DAO as Dao
+from .modules import *
 from .entities import *
+from .packages import *
+
+from .modules.dao import DAO
