@@ -1,3 +1,4 @@
 entities/
 
-*db.sqlite
+# banco de dados de teste
+db.sqlite
