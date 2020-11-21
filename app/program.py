@@ -7,7 +7,7 @@ class Program:
     def __init__(self):
         """contruct"""
         self.__init__
-        self.db = Dal()
+        self.db = Dao()
         pass
         
     def Program(self):

@@ -1,4 +1,4 @@
-class DAL:
+class DAO:
     def __init__(self):
         self.__init__
         pass

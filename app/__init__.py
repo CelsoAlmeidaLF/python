@@ -1,1 +1,2 @@
-from .modules.dal import DAL as Dal
+from .modules.dao import DAO as Dao
+from .entities import *
