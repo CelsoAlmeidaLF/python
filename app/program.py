@@ -7,19 +7,19 @@ class Program:
     def __init__(self):
         """contruct"""
         self.__init__
-        self.db = Dao()
+        self.db = DAO()
         pass
         
     def Program(self):
         """Method Init Program"""
 
-        self.Get()
+        #self.Get()
         
         pass
         
     def Get(self):
         print("Program ...")
-        self.db.Get()
+        #self.db.Get()
         pass
 
     def Set(self):
